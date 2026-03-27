@@ -1,36 +1,4 @@
-# Dependencies
 node_modules/
-
-# Build output
-dist/
 out/
-build/
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Env
-.env
-.env.local
-.env.*.local
-
-# Logs
-*.log
-npm-debug.log*
-
-# Electron Builder
-*.blockmap
-*.exe
-*.dmg
-*.AppImage
-*.snap
-
-# Coverage
-coverage/
+dist/
+resources/icon.ico

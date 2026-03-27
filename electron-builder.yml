@@ -1,0 +1,12 @@
+appId: com.openclaw.lobster-pet
+productName: Lobster Pet
+directories:
+  buildResources: resources
+  output: dist
+win:
+  target:
+    - nsis
+  icon: resources/icon.ico
+nsis:
+  oneClick: false
+  allowToChangeInstallationDirectory: true
